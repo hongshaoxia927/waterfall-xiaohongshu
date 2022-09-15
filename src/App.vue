@@ -12,13 +12,13 @@
     import useHeadTabs from './module/useHeadTabs'
     import useChannelTabs from './module/useChannelTabs'
 
-    const { logo, headTabs } = useHeadTabs()
+    const { headTabs } = useHeadTabs()
     const { channelTabs } = useChannelTabs()
 
 </script>
 
 <template>
-    <HeadTabs :logo="logo" :tabs="headTabs"/>
+    <HeadTabs :tabs="headTabs"/>
     <div class="outer-searchbar-container">
         <SearchBar content='大家都在搜"妆容画廊"'/>
     </div>
