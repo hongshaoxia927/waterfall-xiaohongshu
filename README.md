@@ -11,3 +11,6 @@ npm i //安装依赖
 npm run dev //运行项目
 ```
 
+### 三、在线预览
+[小红书主页-瀑布流](https://hongshaoxia927.github.io/waterfall-xiaohongshu)
+
